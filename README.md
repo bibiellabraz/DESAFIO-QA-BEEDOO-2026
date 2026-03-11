@@ -1,73 +1,143 @@
 # DESAFIO-QA-BEEDOO-2026
+# Desafio QA – Beedoo
 
-README.md
-1. Sobre o desafio
+Este repositório contém a análise, cenários de teste, bugs encontrados e evidências de execução referentes ao desafio técnico de QA para o módulo de **cadastro e listagem de cursos**.
 
-Este repositório contém a análise, os cenários de teste, os bugs encontrados e as evidências de execução referentes ao desafio técnico de QA para o módulo de cadastro e listagem de cursos.
+---
 
-2. Objetivo da aplicação
+# 1. Objetivo da aplicação
 
-A aplicação tem como objetivo permitir o cadastro e a listagem de cursos, possibilitando ao usuário informar dados como nome do curso, descrição, instrutor, datas, tipo do curso, número de vagas e informações complementares conforme o tipo selecionado.
+A aplicação tem como objetivo permitir o **cadastro e a visualização de cursos**, possibilitando que usuários registrem informações como:
 
-3. Principais fluxos disponíveis
+- Nome do curso
+- Descrição
+- Instrutor
+- URL de imagem
+- Datas de início e fim
+- Número de vagas
+- Tipo de curso (online ou presencial)
+- Informações complementares como link de inscrição ou endereço.
 
-Os principais fluxos identificados na aplicação foram:
-Cadastro de curso
-Listagem de cursos
-Exibição dos dados cadastrados
-Variação de campos conforme o tipo de curso (online ou presencial)
+---
 
-4. Pontos mais críticos para teste
+# 2. Fluxos principais identificados
 
-Os pontos que considerei mais críticos foram:
-Cadastro principal de curso
-Validação dos campos do formulário
-Persistência e exibição dos dados na listagem
-Comportamento da aplicação com entradas inválidas
-Tratamento de textos longos, caracteres especiais e URLs
-Comportamento visual da listagem e organização dos cards
+Durante a exploração da aplicação foram identificados os seguintes fluxos principais:
 
-5. Análise inicial da aplicação
+1. Cadastro de curso
+2. Listagem de cursos
+3. Exibição dos dados cadastrados
+4. Exibição de campos condicionais conforme o tipo de curso
+   - Link de inscrição (curso online)
+   - Endereço (curso presencial)
 
-Durante a exploração inicial, observei que a aplicação possui uma interface simples, com foco no cadastro e listagem de cursos. A partir dessa análise, priorizei testes voltados ao fluxo principal, validações de formulário, cenários negativos e comportamentos inesperados.
+Esses fluxos foram considerados os mais críticos para validação da funcionalidade.
 
-Também foram observados indícios de ausência de validação em diversos campos, erros 404 após determinadas ações e problemas de layout na listagem dos cursos.
+---
 
-6. Decisões tomadas para criação dos testes
+# 3. Estratégia de testes
 
-A estratégia de testes foi baseada em risco e cobertura funcional. Por isso, priorizei:
-Fluxo feliz de cadastro
-Exibição correta na listagem
-Validação de campos obrigatórios
-Testes com dados inválidos
-Testes com textos longos e caracteres especiais
-Verificação de comportamento visual após cadastro
-Essas decisões foram tomadas porque o cadastro e a listagem são o núcleo da funcionalidade, e qualquer falha nesses pontos impacta diretamente a experiência do usuário.
+A estratégia utilizada foi baseada em **testes exploratórios e análise de risco**, priorizando:
 
-7. Raciocínio utilizado durante a análise
+- Fluxos principais da funcionalidade
+- Validação de campos
+- Cenários negativos
+- Testes com entradas inesperadas
+- Comportamento da interface com dados extremos
+- Verificação de erros no console do navegador
 
-Meu raciocínio foi dividido em três frentes:
-Funcional: validar se o fluxo principal realmente funciona
-Validação: verificar se os campos aceitam apenas dados esperados
-Exploratória: testar comportamentos inesperados, como entradas fora do padrão, textos extensos e efeitos na navegação e no layout
+Os testes também consideraram aspectos de:
 
-A investigação dos defeitos também incluiu uso do console do navegador para observar erros de rota e comportamento da aplicação após as ações executadas.
+- Usabilidade
+- Validação de dados
+- Segurança básica
+- Comportamento visual da interface.
 
-8. Cenários e casos de teste
+---
 
-Planilha com os cenários e casos de teste:
-[[Google Sheets](https://docs.google.com/spreadsheets/d/1xmRfmdpIRIoArKnq_LH5gK7ohLFMOwJY_XxUQOFLZBE/edit?usp=sharing)]
+# 4. Pontos críticos identificados para teste
 
-9. Relatório de bugs
+Os principais pontos considerados críticos foram:
 
-Relatório com bugs encontrados:
+- Cadastro correto de cursos
+- Persistência dos dados cadastrados
+- Exibição correta na listagem
+- Validação de campos obrigatórios
+- Comportamento com entradas inválidas
+- Limites de caracteres
+- Integridade da interface ao exibir dados extensos
+- Tratamento de URLs e dados inseridos pelo usuário
+
+---
+
+# 5. Ferramentas utilizadas
+
+Durante os testes foram utilizadas as seguintes ferramentas:
+
+- Navegador Google Chrome
+- Console do navegador (DevTools)
+- Testes exploratórios manuais
+- Captura de evidências por prints
+- Documentação de cenários em planilha
+
+---
+
+# 6. Cenários e casos de teste
+
+Os cenários e casos de teste executados estão documentados na planilha:
+
+📄 **Casos de Teste**  
+(casos_de_teste_beedoo.xlsx)
+([[Google Sheets](https://docs.google.com/spreadsheets/d/1xmRfmdpIRIoArKnq_LH5gK7ohLFMOwJY_XxUQOFLZBE/edit?usp=sharing)])
+
+A planilha contém:
+
+- Cenários positivos
+- Cenários negativos
+- Testes de validação
+- Testes exploratórios
+
+---
+
+# 7. Bugs encontrados
+
+Durante os testes foram identificados diversos problemas relacionados a:
+
+- Validação de dados
+- Navegação da aplicação
+- Layout da interface
+- Tratamento de URLs
+
+📄 **Relatório de bugs:**  
+(relatorio_bugs_beedoo.docx)
 [[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQCgod_E_yqASLGO3B4XWEwFAflBdTEJPjhwD8WnUceIkk0?e=I7xC71)]
 
-10. Evidências de execução
+---
 
-Evidências dos testes executados:
-[[Evidências](https://1drv.ms/w/c/981934816ed2ea07/IQCgod_E_yqASLGO3B4XWEwFAYZpcYDpudsHZqnolsAwLXU?e=wBACd3)]
+# 8. Evidências dos testes
 
-11. Considerações finais
+As evidências dos testes executados estão disponíveis no docmento (relatorio_bugs_beedoo.docx) ou entrando diretamente no link:
+[[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQCgod_E_yqASLGO3B4XWEwFAflBdTEJPjhwD8WnUceIkk0?e=I7xC71)]
 
-O desafio permitiu explorar tanto o comportamento funcional quanto aspectos de validação, investigação de defeitos e experiência do usuário. Foram encontrados problemas relevantes relacionados à validação de entrada, tratamento de rotas e organização visual da listagem.
+📂 **evidencias**
+
+Incluindo:
+
+- prints dos bugs
+- prints do console
+- evidências da quebra de layout
+- erros de requisição
+
+---
+
+# 9. Considerações finais
+
+O desafio permitiu avaliar diferentes aspectos da qualidade da aplicação, incluindo:
+
+- comportamento funcional
+- validação de dados
+- tratamento de entradas inesperadas
+- experiência do usuário
+- investigação de defeitos
+
+Durante a análise foram identificadas falhas relevantes que podem impactar diretamente a experiência do usuário e a confiabilidade da aplicação, especialmente relacionadas à validação de dados e organização da interface.
