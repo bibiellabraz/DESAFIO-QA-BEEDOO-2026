@@ -1,11 +1,9 @@
 # DESAFIO-QA-BEEDOO-2026
-
 Este repositório contém a análise, cenários de teste, bugs encontrados e evidências de execução referentes ao desafio técnico de QA para o módulo de **cadastro e listagem de cursos**.
 
 ---
 
 # 1. Objetivo da aplicação
-
 A aplicação tem como objetivo permitir o **cadastro e a visualização de cursos**, possibilitando que usuários registrem informações como:
 
 - Nome do curso
@@ -20,7 +18,6 @@ A aplicação tem como objetivo permitir o **cadastro e a visualização de curs
 ---
 
 # 2. Fluxos principais identificados
-
 Durante a exploração da aplicação foram identificados os seguintes fluxos principais:
 
 1. Cadastro de curso
@@ -35,7 +32,6 @@ Esses fluxos foram considerados os mais críticos para validação da funcionali
 ---
 
 # 3. Estratégia de testes
-
 A estratégia utilizada foi baseada em **testes exploratórios e análise de risco**, priorizando:
 
 - Fluxos principais da funcionalidade
@@ -55,9 +51,7 @@ Os testes também consideraram aspectos de:
 ---
 
 # 4. Pontos críticos identificados para teste
-
 Os principais pontos considerados críticos foram:
-
 - Cadastro correto de cursos
 - Persistência dos dados cadastrados
 - Exibição correta na listagem
@@ -70,9 +64,7 @@ Os principais pontos considerados críticos foram:
 ---
 
 # 5. Ferramentas utilizadas
-
 Durante os testes foram utilizadas as seguintes ferramentas:
-
 - Navegador Google Chrome
 - Console do navegador (DevTools)
 - Testes exploratórios manuais
@@ -82,7 +74,6 @@ Durante os testes foram utilizadas as seguintes ferramentas:
 ---
 
 # 6. Cenários e casos de teste
-
 Os cenários e casos de teste executados estão documentados na planilha:
 
 📄 **Casos de Teste**  
@@ -90,7 +81,6 @@ Os cenários e casos de teste executados estão documentados na planilha:
 ([[Google Sheets](https://docs.google.com/spreadsheets/d/1xmRfmdpIRIoArKnq_LH5gK7ohLFMOwJY_XxUQOFLZBE/edit?usp=sharing)])
 
 A planilha contém:
-
 - Cenários positivos
 - Cenários negativos
 - Testes de validação
@@ -99,16 +89,14 @@ A planilha contém:
 ---
 
 # 7. Bugs encontrados
-
 Durante os testes foram identificados diversos problemas relacionados a:
-
 - Validação de dados
 - Navegação da aplicação
 - Layout da interface
 - Tratamento de URLs
 
 **Relatório de bugs:**  
-(relatorio_bugs_beedoo.docx)
+(relatorio_bugs_beedoo2.docx)
 [[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQCgod_E_yqASLGO3B4XWEwFAflBdTEJPjhwD8WnUceIkk0?e=I7xC71)]
 
 ---
@@ -119,7 +107,6 @@ As evidências dos testes executados estão disponíveis no docmento (relatorio_
 [[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQCgod_E_yqASLGO3B4XWEwFAflBdTEJPjhwD8WnUceIkk0?e=I7xC71)]
 
 **evidencias**
-
 Incluindo:
 - prints dos bugs
 - prints do console
@@ -129,7 +116,6 @@ Incluindo:
 ---
 
 # 9. Considerações finais
-
 O desafio permitiu avaliar diferentes aspectos da qualidade da aplicação, incluindo:
 - comportamento funcional
 - validação de dados
