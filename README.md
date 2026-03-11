@@ -107,7 +107,7 @@ Durante os testes foram identificados diversos problemas relacionados a:
 - Layout da interface
 - Tratamento de URLs
 
-📄 **Relatório de bugs:**  
+**Relatório de bugs:**  
 (relatorio_bugs_beedoo.docx)
 [[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQCgod_E_yqASLGO3B4XWEwFAflBdTEJPjhwD8WnUceIkk0?e=I7xC71)]
 
@@ -118,10 +118,9 @@ Durante os testes foram identificados diversos problemas relacionados a:
 As evidências dos testes executados estão disponíveis no docmento (relatorio_bugs_beedoo.docx) ou entrando diretamente no link:
 [[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQCgod_E_yqASLGO3B4XWEwFAflBdTEJPjhwD8WnUceIkk0?e=I7xC71)]
 
-📂 **evidencias**
+**evidencias**
 
 Incluindo:
-
 - prints dos bugs
 - prints do console
 - evidências da quebra de layout
@@ -132,7 +131,6 @@ Incluindo:
 # 9. Considerações finais
 
 O desafio permitiu avaliar diferentes aspectos da qualidade da aplicação, incluindo:
-
 - comportamento funcional
 - validação de dados
 - tratamento de entradas inesperadas
