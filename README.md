@@ -61,7 +61,7 @@ Planilha com os cenários e casos de teste:
 9. Relatório de bugs
 
 Relatório com bugs encontrados:
-[inserir link do arquivo ou referência da pasta bugs]
+[[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQCgod_E_yqASLGO3B4XWEwFAflBdTEJPjhwD8WnUceIkk0?e=I7xC71)]
 
 10. Evidências de execução
 
