@@ -97,14 +97,14 @@ Durante os testes foram identificados diversos problemas relacionados a:
 
 **Relatório de bugs:**  
 (relatorio_bugs_beedoo2.docx)
-[[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQCgod_E_yqASLGO3B4XWEwFAflBdTEJPjhwD8WnUceIkk0?e=I7xC71)]
+[[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQBew0deF5l0SK44OWJNAoZ8AYfKUPxvVa4kNAaGuRMY4s4?e=z0bAL0)]
 
 ---
 
 # 8. Evidências dos testes
 
 As evidências dos testes executados estão disponíveis no docmento (relatorio_bugs_beedoo.docx) ou entrando diretamente no link:
-[[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQCgod_E_yqASLGO3B4XWEwFAflBdTEJPjhwD8WnUceIkk0?e=I7xC71)]
+[[Arquivo bugs](https://1drv.ms/w/c/981934816ed2ea07/IQBew0deF5l0SK44OWJNAoZ8AYfKUPxvVa4kNAaGuRMY4s4?e=z0bAL0)]
 
 **evidencias**
 Incluindo:
