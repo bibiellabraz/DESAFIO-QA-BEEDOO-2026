@@ -56,7 +56,7 @@ A investigação dos defeitos também incluiu uso do console do navegador para o
 8. Cenários e casos de teste
 
 Planilha com os cenários e casos de teste:
-[inserir link do Google Sheets aqui]
+[[inserir link do Google Sheets aqui](https://docs.google.com/spreadsheets/d/1xmRfmdpIRIoArKnq_LH5gK7ohLFMOwJY_XxUQOFLZBE/edit?usp=sharing)]
 
 9. Relatório de bugs
 
