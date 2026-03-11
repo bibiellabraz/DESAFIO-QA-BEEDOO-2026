@@ -1,5 +1,4 @@
 # DESAFIO-QA-BEEDOO-2026
-# Desafio QA – Beedoo
 
 Este repositório contém a análise, cenários de teste, bugs encontrados e evidências de execução referentes ao desafio técnico de QA para o módulo de **cadastro e listagem de cursos**.
 
